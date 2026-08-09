@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """每日更新秋招企业库：调用 DeepSeek API 联网搜索最近 1-2 天新开放的 2027 届秋招，
-追加到 companies.json（按公司名去重），并写 meta.json。无新增则不改文件。"""
+追加到 companies.json（按公司名去重），并写 meta.json。
+无论是否有新增，每次运行都会把检查日期写入 meta.json 的 last_checked 字段。"""
 import json, os, sys, urllib.request, urllib.error, datetime, re
 
 API_URL = "https://api.deepseek.com/chat/completions"
@@ -95,31 +96,46 @@ def parse_new(text):
     return out
 
 
+def write_meta(existing, checked_date):
+    dates = sorted((c.get("update", "") for c in existing if c.get("update")))
+    meta = {
+        "updated": dates[-1] if dates else checked_date,
+        "last_checked": checked_date,
+        "count": len(existing),
+        "source": "秋招自习室企业库",
+    }
+    try:
+        with open(META_PATH, "w", encoding="utf-8") as f:
+            json.dump(meta, f, ensure_ascii=False, indent=0)
+    except Exception as e:
+        log("写 meta.json 失败:", e)
+
+
 def main():
-    if not KEY:
-        log("缺少 DEEPSEEK_API_KEY，跳过更新。")
-        sys.exit(0)
     today = datetime.date.today().strftime("%Y-%m-%d")
     existing = load_existing()
     existing_names = set((c.get("n", "") for c in existing))
     log("现有企业数:", len(existing))
+    if not KEY:
+        log("缺少 DEEPSEEK_API_KEY，跳过更新。")
+        write_meta(existing, today)
+        sys.exit(0)
     try:
         raw = call_deepseek(sorted(existing_names), today)
     except Exception as e:
         log("调用 DeepSeek 失败:", e)
+        write_meta(existing, today)
         sys.exit(0)
     new_list = parse_new(raw)
     added = [c for c in new_list if c.get("n") and c["n"] not in existing_names]
     if not added:
         log("今日无新增企业。")
+        write_meta(existing, today)
         sys.exit(0)
     existing.extend(added)
     with open(COMP_PATH, "w", encoding="utf-8") as f:
         json.dump(existing, f, ensure_ascii=False, indent=0)
-    dates = sorted((c.get("update", "") for c in existing if c.get("update")))
-    meta = {"updated": dates[-1] if dates else today, "count": len(existing), "source": "秋招自习室企业库"}
-    with open(META_PATH, "w", encoding="utf-8") as f:
-        json.dump(meta, f, ensure_ascii=False, indent=0)
+    write_meta(existing, today)
     log("已新增 %d 家企业，当前共 %d 家。" % (len(added), len(existing)))
 
 
