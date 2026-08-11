@@ -1,54 +1,86 @@
-# 秋招自习室 · 企业库数据仓库
+# 秋招岗位自动发现与可信数据系统（PRD V2.2 后端）
 
-本仓库是「秋招自习室」单页应用的**企业数据源**，由 GitHub Actions 每天定时自动更新。
+每天由 **GitHub Actions** 自动运行：抓取种子企业官方招聘页 → 源适配器抽取 →（可选）DeepSeek 校验 → JSON Schema 校验 → Diff 合并 → 提交 `companies.json` / `meta.json`，经 jsDelivr 分发，前端无需重新部署即可拿到新数据。
 
-## 它做什么
+## 目录结构
+- `config/seeds.json` —— 种子企业白名单（你要维护的重点企业，Seed Monitor）
+- `adapters/` —— 源适配器：`generic` / `beisen`(北森 ATS) / `moka` / `tupu360` / `custom`
+- `lib/fetch.js` —— 带超时与重试的抓取
+- `lib/llm.js` —— DeepSeek 抽取（可选，缺 Key 时降级）
+- `lib/schema.js` —— 记录校验（日期必须可解析，禁止编造）
+- `lib/diff.js` —— 9.2 Diff 规则（new/changed/suspectedClosed/closed/errors）
+- `scripts/run.js` —— 编排整条流水线
+- `data/` —— 产出：`companies.json`(对外) / `meta.json` / `candidates.json`(候选池) / `pending-review.json`(待核验)
 
-- `update_companies.py`：调用 DeepSeek API 联网检索最近 1–2 天新开放的 2027 届秋招/校招企业，  
-  去重后追加到 `companies.json`，并刷新 `meta.json`（记录更新日期与企业总数）。
-- `.github/workflows/daily.yml`：每天**北京时间 09:17** 自动运行上面的脚本，  
-  有新增时自动提交回本仓库。
-- 站点通过 jsDelivr CDN（`https://cdn.jsdelivr.net/gh/<用户名>/<仓库名>@main/companies.json`）  
-  读取本仓库数据，因此**数据更新不需要重新部署前端站点**。
+## 添加种子企业（你来控制）
+编辑 `config/seeds.json`，每条：
+```json
+{
+  "name": "企业名",
+  "careerUrl": "官方招聘页 URL",
+  "type": "药企 / 外企药企 / CRO / 互联网 …",
+  "industry": "创新药 / 临床研发 / 咨询 …",
+  "recruit": "校招",
+  "target": "2027届",
+  "sourceType": "generic | beisen | moka | tupu360 | custom",
+  "priority": 1
+}
+```
+提交后下次定时运行（或手动触发 Actions）即生效。
 
-## 你需要做的（一次性配置）
+## 启用 AI 抽取（更准）
+仓库 **Settings → Secrets and variables → Actions → New repository secret**：
+- Name：`DEEPSEEK_API_KEY`，Value：你的 DeepSeek API Key
+未配置时自动降级为「规则解析 + 待核验」，仍可正常运行，只是岗位明细需后续 AI/人工补全。
 
-1. 在 GitHub 新建一个**公开**仓库（例如 `qiuzha-companies`），把本目录内容推送上去：
-   ```bash
-   cd qiuzha-companies
-   git init
-   git add .
-   git commit -m "init 秋招企业库数据"
-   git branch -M main
-   git remote add origin https://github.com/<你的用户名>/qiuzha-companies.git
-   git push -u origin main
-   ```
+## 部署到 GitHub（把本目录推到仓库）
+**目标仓库 = `wwwwwww679/qiuzha-companies`**（前端 `COMPANY_CDN_BASE` 已指向它，推上去后前端**零改动**即可拿到每日自动发现的数据）。
 
-2. 在仓库 **Settings → Secrets and variables → Actions → New repository secret** 中，  
-   新增名为 `DEEPSEEK_API_KEY` 的 secret，值为你的 DeepSeek API Key。  
-   （没有配置该 secret 时，工作流会安全跳过，不会报错。）
-3. 在仓库 **Settings → Actions → General → Workflow permissions** 中，  
-   选择 **Read and write permissions**（允许 Actions 提交更新）。
-4. 回到 **Actions** 标签页，启用 `每日更新秋招企业库` 工作流。  
-   可以点一次「Run workflow」手动验证是否能跑通。
+### 基线安全策略（重要）
+`scripts/run.js` 每次运行都**先拉取仓库当前的 `companies.json` 作为权威基线**（线上实时数据），再做 Diff 合并。
+因此：
+- 部署不会覆盖你已有的 42 家企业；
+- 你在网页/GitHub 里手动改的数据，下次运行也会被保留（流水线读取线上最新版，而非提交快照）；
+- 本地 `data/companies.json` 仅是初始快照与运行检查点。
 
-## 让前端站点读取本仓库数据
+### 方式一：你用 git 手动推送（最稳，不依赖连接器权限）
+```bash
+# 1) 克隆现有数据仓库（保留历史，避免强推丢历史）
+git clone https://github.com/wwwwwww679/qiuzha-companies.git /tmp/qiuzha-companies
+cd /tmp/qiuzha-companies
 
-编辑站点 `index.html` 中的常量 `COMPANY_CDN_BASE`，填上你的  
-`<用户名>/<仓库名>`，例如：
+# 2) 把本管线的文件复制进去（覆盖 companies.json 为 44 条快照；首次运行会从线上 42 条重新核对）
+cp -r /c/Users/willow/WorkBuddy/2026-08-07-22-49-43/qiuzhao-discovery/* .
+cp /c/Users/willow/WorkBuddy/2026-08-07-22-49-43/qiuzhao-discovery/.gitignore .
 
-```js
-var COMPANY_CDN_BASE = "willow/qiuzha-companies";
+# 3) 提交并推送
+git add -A
+git commit -m "feat: 加入秋招自动发现流水线 (GitHub Actions)"
+git push
+
+# 4) 去仓库 Settings → Secrets 添加 DEEPSEEK_API_KEY（可选，不配也能跑）
+# 5) Actions 页面手动 Run workflow 验证一次，或等每天北京 02:00 自动跑
 ```
 
-填好并重新部署站点后，打开工作台即会显示本仓库的最新企业数据；  
-未配置时站点会自动回退到同目录 `companies.json`，再回退到内置离线数据。
+### 方式二：让我（WorkBuddy）用 GitHub 连接器推送
+当前连接器**只读（403）**，需先在 GitHub / WorkBuddy 侧给连接器授权 `Contents: write` + `Workflows` 权限，
+并把 `wwwwwww679/qiuzha-companies` 加入可访问仓库列表；授权生效后我即可一键推送整套流水线。
+（注意：在对话里选「授权连接器写权限」并不会自动授予 GitHub 权限，需到连接器设置里实际开启。）
 
-## 文件说明
+### 换仓库（可选）
+若推到**新仓库**（如 `qiuzhao-discovery`），则需把前端 `index.html` 里的
+`var COMPANY_CDN_BASE = "wwwwwww679/qiuzha-companies";` 改成新仓库名，然后重新部署前端站点（同一 shareLink，仅更新内容）。
 
-| 文件                            | 说明                                                       |
-| ----------------------------- | -------------------------------------------------------- |
-| `companies.json`              | 企业数组，字段见 `update_companies.py` 的 `FIELDS`                |
-| `meta.json`                   | `{ "updated": "日期", "count": 数量, "source": "秋招自习室企业库" }` |
-| `update_companies.py`         | 每日更新脚本（DeepSeek API）                                     |
-| `.github/workflows/daily.yml` | GitHub Actions 定时任务                                      |
+## 前端接入说明
+前端已通过 `COMPANY_CDN_BASE = "wwwwwww679/qiuzha-companies"` 读取本仓库的 `companies.json` / `meta.json`，
+经 jsDelivr CDN 分发。**推到 `qiuzha-companies` 后前端无需任何改动。**
+
+## 可信度与核验（对应 PRD V2.2）
+- 仅官方来源且近 7/30 天核验 → `verified` / `fresh`；第三方无官方确认 → 待核验(`legacy`)
+- Diff 9.2：`new` / `changed`(保留上一版 `_prev`) / `suspectedClosed`(不立即删) / `closed` / `errors`(不覆盖上一版可信数据)
+- AI 输出：日期必须可解析，未知字段为 `null`，**绝不编造**岗位/城市/截止日**；校验失败进 `pending-review`，绝不直接发布
+- 非目标：不绕过登录 / 验证码 / 付费墙；**不为了企业数量好看自动生成虚假岗位或截止日期**
+
+## 调度
+- 每天 **UTC 18:00（北京 02:00）** 自动运行
+- 也可在 Actions 页面手动 **Run workflow**

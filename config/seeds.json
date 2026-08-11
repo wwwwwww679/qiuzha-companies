@@ -1,0 +1,32 @@
+[
+  {
+    "name": "恒瑞医药",
+    "careerUrl": "https://job.hsrpharma.com/",
+    "type": "药企",
+    "industry": "创新药",
+    "recruit": "校招",
+    "target": "2027届",
+    "sourceType": "generic",
+    "priority": 1
+  },
+  {
+    "name": "赛诺菲",
+    "careerUrl": "https://jobs.sanofi.cn/",
+    "type": "外企药企",
+    "industry": "生物制药",
+    "recruit": "校招",
+    "target": "2027届",
+    "sourceType": "generic",
+    "priority": 1
+  },
+  {
+    "name": "IQVIA艾昆纬",
+    "careerUrl": "https://careersite.tupu360.com/iqvia",
+    "type": "CRO/咨询",
+    "industry": "临床研发/咨询",
+    "recruit": "校招",
+    "target": "2027届",
+    "sourceType": "tupu360",
+    "priority": 1
+  }
+]
