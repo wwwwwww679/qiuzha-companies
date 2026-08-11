@@ -1,15 +1,5 @@
 [
   {
-    "name": "恒瑞医药",
-    "careerUrl": "https://job.hsrpharma.com/",
-    "type": "药企",
-    "industry": "创新药",
-    "recruit": "校招",
-    "target": "2027届",
-    "sourceType": "generic",
-    "priority": 1
-  },
-  {
     "name": "赛诺菲",
     "careerUrl": "https://jobs.sanofi.cn/",
     "type": "外企药企",
@@ -27,6 +17,136 @@
     "recruit": "校招",
     "target": "2027届",
     "sourceType": "tupu360",
+    "priority": 1
+  },
+  {
+    "name": "辉瑞",
+    "careerUrl": "https://pfizer.com.cn/zh-hans/careers-cn",
+    "type": "外企药企",
+    "industry": "创新药/疫苗",
+    "recruit": "校招",
+    "target": "2027届",
+    "sourceType": "generic",
+    "priority": 1
+  },
+  {
+    "name": "罗氏",
+    "careerUrl": "https://www.roche.com/careers",
+    "type": "外企药企",
+    "industry": "制药/诊断",
+    "recruit": "校招",
+    "target": "2027届",
+    "sourceType": "generic",
+    "priority": 1
+  },
+  {
+    "name": "诺华",
+    "careerUrl": "https://www.novartis.com/careers/early-careers/students",
+    "type": "外企药企",
+    "industry": "创新药",
+    "recruit": "校招",
+    "target": "2027届",
+    "sourceType": "generic",
+    "priority": 1
+  },
+  {
+    "name": "默沙东",
+    "careerUrl": "https://jobs.msd.com/cn/zh/",
+    "type": "外企药企",
+    "industry": "疫苗/创新药",
+    "recruit": "校招",
+    "target": "2027届",
+    "sourceType": "generic",
+    "priority": 1
+  },
+  {
+    "name": "阿斯利康",
+    "careerUrl": "https://app.mokahr.com/campus-recruitment/astrazeneca/148833#/",
+    "type": "外企药企",
+    "industry": "创新药",
+    "recruit": "校招",
+    "target": "2027届",
+    "sourceType": "moka",
+    "priority": 1
+  },
+  {
+    "name": "百济神州",
+    "careerUrl": "https://app.mokahr.com/campus-recruitment/beigene/98935#/",
+    "type": "创新药Biotech",
+    "industry": "肿瘤/自免",
+    "recruit": "校招",
+    "target": "2027届",
+    "sourceType": "moka",
+    "priority": 1
+  },
+  {
+    "name": "信达生物",
+    "careerUrl": "https://campus.51job.com/Innovent2026/",
+    "type": "创新药Biotech",
+    "industry": "肿瘤/自免/代谢",
+    "recruit": "校招",
+    "target": "2027届",
+    "sourceType": "generic",
+    "priority": 1
+  },
+  {
+    "name": "诺和诺德",
+    "careerUrl": "https://www.novonordisk.com.cn/",
+    "type": "外企药企",
+    "industry": "糖尿病/肥胖",
+    "recruit": "校招",
+    "target": "2027届",
+    "sourceType": "generic",
+    "priority": 1
+  },
+  {
+    "name": "复星医药",
+    "careerUrl": "http://fosun.zhaopin.com",
+    "type": "综合药企",
+    "industry": "创新药/器械/服务",
+    "recruit": "校招",
+    "target": "2027届",
+    "sourceType": "generic",
+    "priority": 1
+  },
+  {
+    "name": "君实生物",
+    "careerUrl": "https://junshibiosciences.zhiye.com/campus/jobs",
+    "type": "创新药Biotech",
+    "industry": "肿瘤/自免",
+    "recruit": "校招",
+    "target": "2027届",
+    "sourceType": "generic",
+    "priority": 1
+  },
+  {
+    "name": "勃林格殷格翰",
+    "careerUrl": "https://www.boehringer-ingelheim.cn/careers/jobs",
+    "type": "外企药企",
+    "industry": "人药/动物保健",
+    "recruit": "校招",
+    "target": "2027届",
+    "sourceType": "generic",
+    "priority": 1
+  },
+  {
+    "name": "礼来",
+    "careerUrl": "https://www.lilly.com/careers",
+    "type": "外企药企",
+    "industry": "糖尿病/肿瘤",
+    "recruit": "校招",
+    "target": "2027届",
+    "sourceType": "generic",
+    "priority": 1
+  },
+  {
+    "name": "强生",
+    "careerUrl": "https://www.jnj.com/",
+    "type": "综合医疗",
+    "industry": "创新药/医疗器械",
+    "recruit": "校招",
+    "target": "2027届",
+    "sourceType": "generic",
     "priority": 1
   }
 ]
