@@ -2,8 +2,55 @@
   {
     "n": "赛诺菲",
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [],
+    "status": "招聘中",
+    "roles": [
+      "CVT-District Manager(Transplant)-Shenzhen"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "招聘中",
+    "roles": [
+      "Commercial intern"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "招聘中",
+    "roles": [
+      "Market Access-Key Account Manager-Haikou"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "招聘中",
+    "roles": [
+      "糖尿病事业部-医学信息沟通代表-郴州"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "招聘中",
+    "roles": [
+      "Clinical Science Associate / Sales Representative - Rare Disease"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "招聘中",
+    "roles": [
+      "糖尿病事业部-医学信息沟通代表-新余"
+    ],
     "pending": false
   },
   {
@@ -11,6 +58,95 @@
     "sourceUrl": "https://careersite.tupu360.com/iqvia",
     "status": "待核验",
     "roles": [],
+    "pending": false
+  },
+  {
+    "n": "辉瑞",
+    "sourceUrl": "https://pfizer.com.cn/zh-hans/careers-cn",
+    "status": "待核验",
+    "roles": [],
+    "pending": false
+  },
+  {
+    "n": "罗氏",
+    "sourceUrl": "https://careers.roche.com/global/en",
+    "status": "待核验",
+    "roles": [],
+    "pending": false
+  },
+  {
+    "n": "诺华",
+    "sourceUrl": "https://www.novartis.com/careers/early-careers/students",
+    "status": "待核验",
+    "roles": [
+      "US Sales Internship Program",
+      "Commercial General Management Internship Program",
+      "Insights and Decision Science Internship Program",
+      "Novartis Patient Support Internship Program",
+      "China Sailing Medical Representative Intern Program"
+    ],
+    "pending": false
+  },
+  {
+    "n": "默沙东",
+    "sourceUrl": "https://jobs.msd.com/cn/zh/",
+    "status": "待核验",
+    "roles": [],
+    "pending": false
+  },
+  {
+    "n": "信达生物",
+    "sourceUrl": "https://campus.51job.com/Innovent2026/",
+    "status": "待核验",
+    "roles": [],
+    "pending": false
+  },
+  {
+    "n": "诺和诺德",
+    "sourceUrl": "https://www.novonordisk.com.cn/",
+    "status": "待核验",
+    "roles": [],
+    "pending": false
+  },
+  {
+    "n": "复星医药",
+    "sourceUrl": "https://fosun.zhaopin.com/",
+    "status": "待核验",
+    "roles": [],
+    "pending": false
+  },
+  {
+    "n": "君实生物",
+    "sourceUrl": "https://junshibiosciences.zhiye.com/campus/jobs",
+    "status": "待核验",
+    "roles": [],
+    "pending": false
+  },
+  {
+    "n": "勃林格殷格翰",
+    "sourceUrl": "https://www.boehringer-ingelheim.cn/careers/jobs",
+    "status": "待核验",
+    "roles": [],
+    "pending": false
+  },
+  {
+    "n": "礼来",
+    "sourceUrl": "https://careers.lilly.com/",
+    "status": "待核验",
+    "roles": [],
+    "pending": false
+  },
+  {
+    "n": "强生",
+    "sourceUrl": "https://www.jnj.com/",
+    "status": "待核验",
+    "roles": [
+      "Apprenticeships",
+      "Internships",
+      "Co-ops",
+      "Leadership development programs",
+      "Jobs for graduate students, postgraduates and postdocs"
+    ],
     "pending": false
   }
 ]
