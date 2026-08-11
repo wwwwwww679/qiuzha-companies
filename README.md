@@ -10,7 +10,8 @@
 - `lib/schema.js` —— 记录校验（日期必须可解析，禁止编造）
 - `lib/diff.js` —— 9.2 Diff 规则（new/changed/suspectedClosed/closed/errors）
 - `scripts/run.js` —— 编排整条流水线
-- `data/` —— 产出：`companies.json`(对外) / `meta.json` / `candidates.json`(候选池) / `pending-review.json`(待核验)
+- `companies.json` / `meta.json` —— **写入仓库根目录**（前端 `COMPANY_CDN_BASE` 直接读取，经 jsDelivr 分发）
+- `data/` —— 内部评审池：`candidates.json`(候选) / `pending-review.json`(待核验)，不参与前端展示
 
 ## 添加种子企业（你来控制）
 编辑 `config/seeds.json`，每条：
@@ -41,31 +42,25 @@
 因此：
 - 部署不会覆盖你已有的 42 家企业；
 - 你在网页/GitHub 里手动改的数据，下次运行也会被保留（流水线读取线上最新版，而非提交快照）；
-- 本地 `data/companies.json` 仅是初始快照与运行检查点。
+- `companies.json` / `meta.json` 始终写入**仓库根目录**（前端读取路径），`data/` 仅存内部评审池。
 
-### 方式一：你用 git 手动推送（最稳，不依赖连接器权限）
+### 重新部署 / 本地改完后再推送（最稳，用 PAT）
 ```bash
-# 1) 克隆现有数据仓库（保留历史，避免强推丢历史）
+# 1) 克隆现有数据仓库
 git clone https://github.com/wwwwwww679/qiuzha-companies.git /tmp/qiuzha-companies
 cd /tmp/qiuzha-companies
 
-# 2) 把本管线的文件复制进去（覆盖 companies.json 为 44 条快照；首次运行会从线上 42 条重新核对）
-cp -r /c/Users/willow/WorkBuddy/2026-08-07-22-49-43/qiuzhao-discovery/* .
-cp /c/Users/willow/WorkBuddy/2026-08-07-22-49-43/qiuzhao-discovery/.gitignore .
+# 2) 把本管线的文件复制进去
+cp -r lib adapters scripts config .github README.md package.json .gitignore .
 
-# 3) 提交并推送
+# 3) 提交并推送（PAT 需带 repo + workflow 权限）
 git add -A
-git commit -m "feat: 加入秋招自动发现流水线 (GitHub Actions)"
-git push
+git commit -m "feat: 更新秋招自动发现流水线"
+git push   # 用户名填 wwwwwww679，密码粘 PAT（非登录密码）
 
 # 4) 去仓库 Settings → Secrets 添加 DEEPSEEK_API_KEY（可选，不配也能跑）
 # 5) Actions 页面手动 Run workflow 验证一次，或等每天北京 02:00 自动跑
 ```
-
-### 方式二：让我（WorkBuddy）用 GitHub 连接器推送
-当前连接器**只读（403）**，需先在 GitHub / WorkBuddy 侧给连接器授权 `Contents: write` + `Workflows` 权限，
-并把 `wwwwwww679/qiuzha-companies` 加入可访问仓库列表；授权生效后我即可一键推送整套流水线。
-（注意：在对话里选「授权连接器写权限」并不会自动授予 GitHub 权限，需到连接器设置里实际开启。）
 
 ### 换仓库（可选）
 若推到**新仓库**（如 `qiuzhao-discovery`），则需把前端 `index.html` 里的
