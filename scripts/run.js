@@ -118,7 +118,8 @@ async function discoverSeed(seed) {
 
 (async () => {
   const seeds = loadJSON(path.join(CONFIG, 'seeds.json'), []);
-  const committed = loadJSON(path.join(DATA, 'companies.json'), []);
+  // 回退基线读取仓库根目录 companies.json（与前端 COMPANY_CDN_BASE 读取路径一致）
+  const committed = loadJSON(path.join(ROOT, 'companies.json'), []);
   // 优先用线上实时数据作为权威基准；拉取失败才回退到本次提交的快照。
   const baseline = (await fetchLiveBaseline())
     || (Array.isArray(committed) && committed.length ? committed : []);
@@ -139,7 +140,8 @@ async function discoverSeed(seed) {
   // pending（校验失败）进入候选池/待核验，绝不覆盖可信旧值
   const { merged, events } = diffCompanies(baseline, allValid);
 
-  saveJSON(path.join(DATA, 'companies.json'), merged);
+  // 写入仓库根目录 companies.json（前端 COMPANY_CDN_BASE 直接读取此文件）
+  saveJSON(path.join(ROOT, 'companies.json'), merged);
   saveJSON(path.join(DATA, 'candidates.json'),
     allValid.concat(allPending).map(c => ({
       n: c.n, sourceUrl: c.sourceUrl, status: c.status, roles: c.roles, pending: !c.credibility
@@ -157,7 +159,8 @@ async function discoverSeed(seed) {
     source: 'github-actions',
     events
   };
-  saveJSON(path.join(DATA, 'meta.json'), meta);
+  // 写入仓库根目录 meta.json（前端 loadMeta 读取此文件）
+  saveJSON(path.join(ROOT, 'meta.json'), meta);
 
   console.log('[done] 合并后企业数=' + merged.length +
     ' 事件=' + JSON.stringify(events) + ' 待核验=' + allPending.length);
