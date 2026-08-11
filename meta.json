@@ -5,8 +5,8 @@
   "version": 2,
   "source": "github-actions",
   "events": {
-    "new": 13,
-    "changed": 5,
+    "new": 0,
+    "changed": 9,
     "suspectedClosed": 0,
     "closed": 0
   }

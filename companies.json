@@ -960,9 +960,9 @@
     "industry": "生物制药",
     "recruit": "校招",
     "target": "2027届",
-    "city": "广州市",
+    "city": "上海, 北京",
     "roles": [
-      "糖尿病事业部-医学信息沟通代表-新余"
+      "R&D - Health Value Translation Lead - BJ/SH"
     ],
     "link": "https://jobs.sanofi.cn/zh-hans/china",
     "notice": "",
@@ -982,9 +982,9 @@
       "industry": "生物制药",
       "recruit": "校招",
       "target": "2027届",
-      "city": "信宜",
+      "city": "北京",
       "roles": [
-        "Clinical Science Associate / Sales Representative - Rare Disease"
+        "DBU-地区经理-秦皇岛"
       ],
       "link": "https://jobs.sanofi.cn/zh-hans/china",
       "notice": "",
@@ -1081,7 +1081,7 @@
       "China Sailing Medical Representative Intern Program"
     ],
     "link": "https://www.novartis.com/careers/early-careers/students",
-    "notice": "仅美国大学学生符合资格；中国项目未明确城市",
+    "notice": "US Sales Internship Program: US - Remote, 10 weeks, Recruitment calendar December - February, Only U.S. university students are eligible. Commercial General Management Internship Program: East Hanover, NJ, 10 weeks, Recruitment calendar December - February, Only U.S. university students are eligible. Insights and Decision Science Internship Program: East Hanover, NJ, 10 weeks, Recruitment calendar December - February, Only U.S. university students are eligible. Novartis Patient Support Internship Program: East Hanover, NJ, 10 weeks, Recruitment calendar December - February, Only U.S. university students are eligible. China Sailing Medical Representative Intern Program: China, details not fully provided.",
     "source": "generic",
     "update": "2026-08-11",
     "deadline": null,
@@ -1092,7 +1092,33 @@
     "lastVerifiedAt": "2026-08-11",
     "firstSeen": "2026-08-11",
     "credibility": "verified",
-    "_prev": null
+    "_prev": {
+      "n": "诺华",
+      "type": "外企药企",
+      "industry": "创新药",
+      "recruit": "实习",
+      "target": "2027届",
+      "city": null,
+      "roles": [
+        "US Sales Internship Program",
+        "Commercial General Management Internship Program",
+        "Insights and Decision Science Internship Program",
+        "Novartis Patient Support Internship Program",
+        "China Sailing Medical Representative Intern Program"
+      ],
+      "link": "https://www.novartis.com/careers/early-careers/students",
+      "notice": "仅美国大学学生符合资格；中国项目未明确城市",
+      "source": "generic",
+      "update": "2026-08-11",
+      "deadline": null,
+      "status": "待核验",
+      "progress": "",
+      "sourceUrl": "https://www.novartis.com/careers/early-careers/students",
+      "sourceType": "generic",
+      "lastVerifiedAt": "2026-08-11",
+      "firstSeen": "2026-08-11",
+      "credibility": "verified"
+    }
   },
   {
     "n": "默沙东",
@@ -1103,7 +1129,7 @@
     "city": null,
     "roles": [],
     "link": "https://jobs.msd.com/cn/zh/",
-    "notice": "页面未列出具体岗位信息",
+    "notice": "规则解析未抽取到岗位明细，待 AI/人工核验",
     "source": "generic",
     "update": "2026-08-11",
     "deadline": null,
@@ -1114,7 +1140,27 @@
     "lastVerifiedAt": "2026-08-11",
     "firstSeen": "2026-08-11",
     "credibility": "verified",
-    "_prev": null
+    "_prev": {
+      "n": "默沙东",
+      "type": "外企药企",
+      "industry": "疫苗/创新药",
+      "recruit": "校招",
+      "target": "2027届",
+      "city": null,
+      "roles": [],
+      "link": "https://jobs.msd.com/cn/zh/",
+      "notice": "页面未列出具体岗位信息",
+      "source": "generic",
+      "update": "2026-08-11",
+      "deadline": null,
+      "status": "待核验",
+      "progress": "",
+      "sourceUrl": "https://jobs.msd.com/cn/zh/",
+      "sourceType": "generic",
+      "lastVerifiedAt": "2026-08-11",
+      "firstSeen": "2026-08-11",
+      "credibility": "verified"
+    }
   },
   {
     "n": "信达生物",
@@ -1213,7 +1259,7 @@
     "city": null,
     "roles": [],
     "link": "https://www.boehringer-ingelheim.cn/cn/join-us/search-and-apply",
-    "notice": "页面未显示具体岗位信息，仅提供职位搜索功能",
+    "notice": "页面未显示具体岗位信息，仅有搜索界面",
     "source": "generic",
     "update": "2026-08-11",
     "deadline": null,
@@ -1224,7 +1270,27 @@
     "lastVerifiedAt": "2026-08-11",
     "firstSeen": "2026-08-11",
     "credibility": "verified",
-    "_prev": null
+    "_prev": {
+      "n": "勃林格殷格翰",
+      "type": "外企药企",
+      "industry": "人药/动物保健",
+      "recruit": "校招",
+      "target": "2027届",
+      "city": null,
+      "roles": [],
+      "link": "https://www.boehringer-ingelheim.cn/cn/join-us/search-and-apply",
+      "notice": "页面未显示具体岗位信息，仅提供职位搜索功能",
+      "source": "generic",
+      "update": "2026-08-11",
+      "deadline": null,
+      "status": "待核验",
+      "progress": "",
+      "sourceUrl": "https://www.boehringer-ingelheim.cn/careers/jobs",
+      "sourceType": "generic",
+      "lastVerifiedAt": "2026-08-11",
+      "firstSeen": "2026-08-11",
+      "credibility": "verified"
+    }
   },
   {
     "n": "礼来",
