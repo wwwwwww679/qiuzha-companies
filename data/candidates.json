@@ -57,7 +57,11 @@
     "n": "IQVIA艾昆纬",
     "sourceUrl": "https://careersite.tupu360.com/iqvia",
     "status": "待核验",
-    "roles": [],
+    "roles": [
+      "管理咨询暑期实习生",
+      "市场洞察暑期实习生",
+      "数据科学暑期实习生"
+    ],
     "pending": false
   },
   {
@@ -97,6 +101,13 @@
   {
     "n": "信达生物",
     "sourceUrl": "https://campus.51job.com/Innovent2026/",
+    "status": "待核验",
+    "roles": [],
+    "pending": false
+  },
+  {
+    "n": "诺和诺德",
+    "sourceUrl": "https://www.novonordisk.com.cn/",
     "status": "待核验",
     "roles": [],
     "pending": false
