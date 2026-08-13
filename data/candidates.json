@@ -4,7 +4,7 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "招聘中",
     "roles": [
-      "District Manager"
+      "SBD intern"
     ],
     "pending": false
   },
@@ -13,43 +13,7 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "招聘中",
     "roles": [
-      "Commercial intern"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "招聘中",
-    "roles": [
-      "VX-VIE Manager-Nanjing"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "招聘中",
-    "roles": [
-      "特药事业部-医学信息沟通代表-上海"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "招聘中",
-    "roles": [
-      "DBU-地区经理-秦皇岛"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "招聘中",
-    "roles": [
-      "R&D - Health Value Translation Lead - BJ/SH"
+      "普药事业部-Commercial Intern"
     ],
     "pending": false
   },
@@ -60,6 +24,7 @@
     "roles": [
       "管理咨询暑期实习生",
       "市场洞察暑期实习生",
+      "真实世界研究暑期实习生",
       "数据科学暑期实习生"
     ],
     "pending": false
