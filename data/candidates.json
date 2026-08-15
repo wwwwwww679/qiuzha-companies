@@ -2,7 +2,43 @@
   {
     "n": "赛诺菲",
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
+    "status": "招聘中",
+    "roles": [
+      "普药事业部-Commercial Intern-大连"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "招聘中",
+    "roles": [
+      "心脑血管和移植事业部-医学信息沟通代表-长沙（Aficamten）"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "招聘中",
+    "roles": [
+      "Market Access-Central Market Access Project Manager-Beijing/Shanghai"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "招聘中",
+    "roles": [
+      "M&S - IFB - USP Operation Expert"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "招聘中",
     "roles": [
       "糖尿病事业部-医学信息沟通代表-新余"
     ],
@@ -11,45 +47,9 @@
   {
     "n": "赛诺菲",
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
+    "status": "招聘中",
     "roles": [
       "特药事业部-医学信息沟通代表-长春"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [
-      "Finance Business Partner – Specialty Care, TWHK"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [
-      "心血管及移植事业部-医学信息沟通代表-淄博"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [
-      "疫苗事业部-医学信息沟通代表-石家庄"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [
-      "心血管和移植事业部-医学信息沟通代表-宝鸡"
     ],
     "pending": false
   },
@@ -140,13 +140,7 @@
     "n": "强生",
     "sourceUrl": "https://www.jnj.com/",
     "status": "待核验",
-    "roles": [
-      "Apprenticeships",
-      "Internships",
-      "Co-ops",
-      "Leadership development programs",
-      "Jobs for graduate students, postgraduates and postdocs"
-    ],
+    "roles": [],
     "pending": false
   }
 ]
