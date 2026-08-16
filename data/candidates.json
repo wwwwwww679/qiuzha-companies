@@ -2,54 +2,14 @@
   {
     "n": "赛诺菲",
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "招聘中",
+    "status": "待核验",
     "roles": [
-      "普药事业部-Commercial Intern-大连"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "招聘中",
-    "roles": [
-      "心脑血管和移植事业部-医学信息沟通代表-长沙（Aficamten）"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "招聘中",
-    "roles": [
-      "Market Access-Central Market Access Project Manager-Beijing/Shanghai"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "招聘中",
-    "roles": [
-      "M&S - IFB - USP Operation Expert"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "招聘中",
-    "roles": [
+      "CVT-District Manager(CV)-Changchun",
+      "普药事业部-Commercial Intern-大连",
+      "心血管和移植事业部-医学信息沟通代表-长沙（Aficamten）",
+      "Market Access-Central Market Access Project Manager-Beijing/Shanghai",
+      "M&S - IFB - USP Operation Expert",
       "糖尿病事业部-医学信息沟通代表-新余"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "招聘中",
-    "roles": [
-      "特药事业部-医学信息沟通代表-长春"
     ],
     "pending": false
   },
@@ -140,7 +100,13 @@
     "n": "强生",
     "sourceUrl": "https://www.jnj.com/",
     "status": "待核验",
-    "roles": [],
+    "roles": [
+      "Apprenticeships",
+      "Internships",
+      "Co-ops",
+      "Leadership development programs",
+      "Jobs for graduate students, postgraduates and postdocs"
+    ],
     "pending": false
   }
 ]
