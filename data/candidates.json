@@ -4,12 +4,52 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
     "roles": [
-      "特药事业部-Commercial Intern-北京",
-      "糖尿病事业部-医学信息沟通代表-郴州",
-      "DBU-地区经理-秦皇岛",
-      "特药事业部-医学信息沟通代表-宁波",
-      "CVT-District Manager(CV)-Changchun",
-      "普药事业部-Commercial Intern-大连"
+      "疫苗事业部-医学信息沟通代表-兰州"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "待核验",
+    "roles": [
+      "Head of Taiwan CSU (Clinical Study Units)"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "待核验",
+    "roles": [
+      "特药事业部-医学信息沟通代表-合肥"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "待核验",
+    "roles": [
+      "普药事业部-Commercial Intern-济南"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "待核验",
+    "roles": [
+      "Medical - Medical Science Liaison Manager - Chengdu"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "待核验",
+    "roles": [
+      "M&S-QA Ops & Batch Release Lead-Shenzhen"
     ],
     "pending": false
   },
@@ -17,7 +57,11 @@
     "n": "IQVIA艾昆纬",
     "sourceUrl": "https://careersite.tupu360.com/iqvia",
     "status": "待核验",
-    "roles": [],
+    "roles": [
+      "管理咨询暑期实习生",
+      "市场洞察暑期实习生",
+      "数据科学暑期实习生"
+    ],
     "pending": false
   },
   {
