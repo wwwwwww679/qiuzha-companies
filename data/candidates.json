@@ -4,12 +4,61 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
     "roles": [
-      "District Manager",
-      "Channel Strategy Manager",
-      "疫苗事业部-医学信息沟通代表-兰州",
-      "Head of Taiwan CSU (Clinical Study Units)",
-      "特药事业部-医学信息沟通代表-合肥",
-      "普药事业部-Commercial Intern-济南"
+      "医学信息沟通代表"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "待核验",
+    "roles": [
+      "医学信息沟通代表"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "待核验",
+    "roles": [
+      "医学信息沟通代表"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "待核验",
+    "roles": [
+      "医学信息沟通代表"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "待核验",
+    "roles": [
+      "医学信息沟通代表"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "待核验",
+    "roles": [
+      "医学信息沟通代表"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "待核验",
+    "roles": [
+      "医学信息沟通代表"
     ],
     "pending": false
   },
@@ -18,9 +67,9 @@
     "sourceUrl": "https://careersite.tupu360.com/iqvia",
     "status": "待核验",
     "roles": [
-      "管理咨询实习生",
-      "市场调研实习生",
-      "数据分析实习生"
+      "管理咨询暑期实习生",
+      "市场洞察暑期实习生",
+      "真实世界研究暑期实习生"
     ],
     "pending": false
   },
@@ -43,43 +92,11 @@
     "sourceUrl": "https://www.novartis.com/careers/early-careers/students",
     "status": "待核验",
     "roles": [
-      "US Sales Internship Program"
-    ],
-    "pending": false
-  },
-  {
-    "n": "诺华",
-    "sourceUrl": "https://www.novartis.com/careers/early-careers/students",
-    "status": "待核验",
-    "roles": [
-      "Commercial General Management Internship Program"
-    ],
-    "pending": false
-  },
-  {
-    "n": "诺华",
-    "sourceUrl": "https://www.novartis.com/careers/early-careers/students",
-    "status": "待核验",
-    "roles": [
-      "Insights and Decision Science Internship Program"
-    ],
-    "pending": false
-  },
-  {
-    "n": "诺华",
-    "sourceUrl": "https://www.novartis.com/careers/early-careers/students",
-    "status": "待核验",
-    "roles": [
-      "Novartis Patient Support Internship Program"
-    ],
-    "pending": false
-  },
-  {
-    "n": "诺华",
-    "sourceUrl": "https://www.novartis.com/careers/early-careers/students",
-    "status": "待核验",
-    "roles": [
-      "Sailing Medical Representative Intern Program"
+      "US Sales Internship Program",
+      "Commercial General Management Internship Program",
+      "Insights and Decision Science Internship Program",
+      "Novartis Patient Support Internship Program",
+      "China Sailing Medical Representative Intern Program"
     ],
     "pending": false
   },
