@@ -4,7 +4,12 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
     "roles": [
-      "Senoir District Manager"
+      "医学信息沟通代表",
+      "医学信息沟通代表",
+      "Medical Information Communication Repres",
+      "医学信息沟通代表",
+      "E-Commerce Marketing Manager",
+      "(Senior) Product Manager - Specialty Cardiovascular Innovation, General Medicines"
     ],
     "pending": false
   },
@@ -13,7 +18,7 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
     "roles": [
-      "Sales Representative Vaccine"
+      "医学信息沟通代表"
     ],
     "pending": false
   },
@@ -22,7 +27,7 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
     "roles": [
-      "Senior Product Manager Dupixent"
+      "Medical Information Communication Repres"
     ],
     "pending": false
   },
@@ -31,7 +36,7 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
     "roles": [
-      "Sales Representative Vaccine"
+      "医学信息沟通代表"
     ],
     "pending": false
   },
@@ -40,7 +45,7 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
     "roles": [
-      "特药事业部 医学信息沟通代表"
+      "E-Commerce Marketing Manager"
     ],
     "pending": false
   },
@@ -49,7 +54,7 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
     "roles": [
-      "Product Manager - Rare Disease"
+      "(Senior) Product Manager - Specialty Cardiovascular Innovation, General Medicines"
     ],
     "pending": false
   },
@@ -140,7 +145,13 @@
     "n": "强生",
     "sourceUrl": "https://www.jnj.com/",
     "status": "待核验",
-    "roles": [],
+    "roles": [
+      "Apprenticeships",
+      "Internships",
+      "Co-ops",
+      "Leadership development programs",
+      "Jobs for graduate students, postgraduates and postdocs"
+    ],
     "pending": false
   }
 ]
