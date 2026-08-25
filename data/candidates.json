@@ -4,12 +4,7 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
     "roles": [
-      "医学信息沟通代表",
-      "医学信息沟通代表",
-      "Medical Information Communication Repres",
-      "医学信息沟通代表",
-      "E-Commerce Marketing Manager",
-      "(Senior) Product Manager - Specialty Cardiovascular Innovation, General Medicines"
+      "Product Manager - Vaccines"
     ],
     "pending": false
   },
@@ -18,7 +13,7 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
     "roles": [
-      "医学信息沟通代表"
+      "Sales Representative – General Medicines GP (South)"
     ],
     "pending": false
   },
@@ -27,7 +22,7 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
     "roles": [
-      "Medical Information Communication Repres"
+      "心血管及移植事业部 医学信息沟通代表"
     ],
     "pending": false
   },
@@ -36,7 +31,7 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
     "roles": [
-      "医学信息沟通代表"
+      "心血管及移植事业部 医学信息沟通代表"
     ],
     "pending": false
   },
@@ -45,7 +40,7 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
     "roles": [
-      "E-Commerce Marketing Manager"
+      "Senoir District Manager"
     ],
     "pending": false
   },
@@ -54,7 +49,7 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
     "roles": [
-      "(Senior) Product Manager - Specialty Cardiovascular Innovation, General Medicines"
+      "Intern"
     ],
     "pending": false
   },
@@ -84,11 +79,43 @@
     "sourceUrl": "https://www.novartis.com/careers/early-careers/students",
     "status": "待核验",
     "roles": [
-      "US Sales Internship Program",
-      "Commercial General Management Internship Program",
-      "Insights and Decision Science Internship Program",
-      "Novartis Patient Support Internship Program",
-      "China Sailing Medical Representative Intern Program"
+      "US Sales Internship Program"
+    ],
+    "pending": false
+  },
+  {
+    "n": "诺华",
+    "sourceUrl": "https://www.novartis.com/careers/early-careers/students",
+    "status": "待核验",
+    "roles": [
+      "Commercial General Management Internship Program"
+    ],
+    "pending": false
+  },
+  {
+    "n": "诺华",
+    "sourceUrl": "https://www.novartis.com/careers/early-careers/students",
+    "status": "待核验",
+    "roles": [
+      "Insights and Decision Science Internship Program"
+    ],
+    "pending": false
+  },
+  {
+    "n": "诺华",
+    "sourceUrl": "https://www.novartis.com/careers/early-careers/students",
+    "status": "待核验",
+    "roles": [
+      "Novartis Patient Support Internship Program"
+    ],
+    "pending": false
+  },
+  {
+    "n": "诺华",
+    "sourceUrl": "https://www.novartis.com/careers/early-careers/students",
+    "status": "待核验",
+    "roles": [
+      "Sailing Medical Representative Intern Program"
     ],
     "pending": false
   },
@@ -102,13 +129,6 @@
   {
     "n": "信达生物",
     "sourceUrl": "https://campus.51job.com/Innovent2026/",
-    "status": "待核验",
-    "roles": [],
-    "pending": false
-  },
-  {
-    "n": "诺和诺德",
-    "sourceUrl": "https://www.novonordisk.com.cn/",
     "status": "待核验",
     "roles": [],
     "pending": false
@@ -145,13 +165,7 @@
     "n": "强生",
     "sourceUrl": "https://www.jnj.com/",
     "status": "待核验",
-    "roles": [
-      "Apprenticeships",
-      "Internships",
-      "Co-ops",
-      "Leadership development programs",
-      "Jobs for graduate students, postgraduates and postdocs"
-    ],
+    "roles": [],
     "pending": false
   }
 ]
