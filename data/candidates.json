@@ -4,52 +4,12 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
     "roles": [
-      "Product Manager - Vaccines"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [
-      "Sales Representative – General Medicines GP (South)"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [
-      "心血管及移植事业部 医学信息沟通代表"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [
-      "心血管及移植事业部 医学信息沟通代表"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [
-      "Senoir District Manager"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [
-      "Intern"
+      "Senior Alliance TA Manager-Shanghai",
+      "医学信息沟通代表",
+      "医学信息沟通代表-长沙（Aficamten）",
+      "医学信息沟通代表",
+      "Medical Manager",
+      "Vaccines - Head of Marketing - Beijing"
     ],
     "pending": false
   },
@@ -64,7 +24,11 @@
     "n": "辉瑞",
     "sourceUrl": "https://pfizer.com.cn/zh-hans/careers-cn",
     "status": "待核验",
-    "roles": [],
+    "roles": [
+      "医学信息沟通实习生",
+      "市场部实习生",
+      "研发部实习生"
+    ],
     "pending": false
   },
   {
@@ -79,43 +43,11 @@
     "sourceUrl": "https://www.novartis.com/careers/early-careers/students",
     "status": "待核验",
     "roles": [
-      "US Sales Internship Program"
-    ],
-    "pending": false
-  },
-  {
-    "n": "诺华",
-    "sourceUrl": "https://www.novartis.com/careers/early-careers/students",
-    "status": "待核验",
-    "roles": [
-      "Commercial General Management Internship Program"
-    ],
-    "pending": false
-  },
-  {
-    "n": "诺华",
-    "sourceUrl": "https://www.novartis.com/careers/early-careers/students",
-    "status": "待核验",
-    "roles": [
-      "Insights and Decision Science Internship Program"
-    ],
-    "pending": false
-  },
-  {
-    "n": "诺华",
-    "sourceUrl": "https://www.novartis.com/careers/early-careers/students",
-    "status": "待核验",
-    "roles": [
-      "Novartis Patient Support Internship Program"
-    ],
-    "pending": false
-  },
-  {
-    "n": "诺华",
-    "sourceUrl": "https://www.novartis.com/careers/early-careers/students",
-    "status": "待核验",
-    "roles": [
-      "Sailing Medical Representative Intern Program"
+      "US Sales Internship Program",
+      "Commercial General Management Internship Program",
+      "Insights and Decision Science Internship Program",
+      "Novartis Patient Support Internship Program",
+      "China Sailing Medical Representative Intern Program"
     ],
     "pending": false
   },
@@ -129,6 +61,13 @@
   {
     "n": "信达生物",
     "sourceUrl": "https://campus.51job.com/Innovent2026/",
+    "status": "待核验",
+    "roles": [],
+    "pending": false
+  },
+  {
+    "n": "诺和诺德",
+    "sourceUrl": "https://www.novonordisk.com.cn/",
     "status": "待核验",
     "roles": [],
     "pending": false
@@ -165,7 +104,13 @@
     "n": "强生",
     "sourceUrl": "https://www.jnj.com/",
     "status": "待核验",
-    "roles": [],
+    "roles": [
+      "Apprenticeships",
+      "Internships",
+      "Co-ops",
+      "Leadership development programs",
+      "Jobs for graduate students, postgraduates and postdocs"
+    ],
     "pending": false
   }
 ]
