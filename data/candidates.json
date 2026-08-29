@@ -2,54 +2,9 @@
   {
     "n": "赛诺菲",
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
+    "status": "招聘中",
     "roles": [
-      "DBU 地区经理"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [
-      "Senoir District Manager"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [
-      "Manager Patient Affair and Diagnostics"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [
-      "心血管及移植事业部 医学信息沟通代表"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [
-      "Intern"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [
-      "Intern"
+      "普药事业部-Commercial Intern-北京"
     ],
     "pending": false
   },
@@ -140,7 +95,13 @@
     "n": "强生",
     "sourceUrl": "https://www.jnj.com/",
     "status": "待核验",
-    "roles": [],
+    "roles": [
+      "Apprenticeships",
+      "Internships",
+      "Co-ops",
+      "Leadership development programs",
+      "Jobs for graduate students, postgraduates and postdocs"
+    ],
     "pending": false
   }
 ]
