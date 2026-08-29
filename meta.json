@@ -1,12 +1,12 @@
 {
-  "updated": "2026-08-28",
-  "last_checked": "2026-08-28",
+  "updated": "2026-08-29",
+  "last_checked": "2026-08-29",
   "count": 55,
   "version": 2,
   "source": "github-actions",
   "events": {
     "new": 0,
-    "changed": 17,
+    "changed": 16,
     "suspectedClosed": 1,
     "closed": 0
   }

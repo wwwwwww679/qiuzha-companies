@@ -4,7 +4,34 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
     "roles": [
-      "医学信息沟通代表"
+      "DBU 地区经理"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "待核验",
+    "roles": [
+      "Senoir District Manager"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "待核验",
+    "roles": [
+      "Manager Patient Affair and Diagnostics"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "待核验",
+    "roles": [
+      "心血管及移植事业部 医学信息沟通代表"
     ],
     "pending": false
   },
@@ -23,42 +50,6 @@
     "status": "待核验",
     "roles": [
       "Intern"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [
-      "医学信息沟通代表"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [
-      "医学信息沟通代表"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [
-      "医学信息沟通代表"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [
-      "R&D - CSU - CSU intern - BJ"
     ],
     "pending": false
   },
@@ -149,13 +140,7 @@
     "n": "强生",
     "sourceUrl": "https://www.jnj.com/",
     "status": "待核验",
-    "roles": [
-      "Apprenticeships",
-      "Internships",
-      "Co-ops",
-      "Leadership development programs",
-      "Jobs for graduate students, postgraduates and postdocs"
-    ],
+    "roles": [],
     "pending": false
   }
 ]
