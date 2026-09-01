@@ -2,7 +2,16 @@
   {
     "n": "赛诺菲",
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "招聘中",
+    "status": "待核验",
+    "roles": [
+      "医学信息沟通代表"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "待核验",
     "roles": [
       "CSU intern"
     ],
@@ -11,7 +20,7 @@
   {
     "n": "赛诺菲",
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "招聘中",
+    "status": "待核验",
     "roles": [
       "Market Access Manager"
     ],
@@ -20,16 +29,16 @@
   {
     "n": "赛诺菲",
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "招聘中",
+    "status": "待核验",
     "roles": [
-      "糖尿病事业部 医学信息沟通代表"
+      "医学信息沟通代表"
     ],
     "pending": false
   },
   {
     "n": "赛诺菲",
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "招聘中",
+    "status": "待核验",
     "roles": [
       "China Search & Evaluation Director"
     ],
@@ -38,18 +47,9 @@
   {
     "n": "赛诺菲",
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "招聘中",
+    "status": "待核验",
     "roles": [
       "Vx-Sr Brand Manager-Beijing"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "招聘中",
-    "roles": [
-      "M&S - Quality Assurance Head - IFB"
     ],
     "pending": false
   },
@@ -57,7 +57,10 @@
     "n": "IQVIA艾昆纬",
     "sourceUrl": "https://careersite.tupu360.com/iqvia",
     "status": "待核验",
-    "roles": [],
+    "roles": [
+      "2025春季校园招聘",
+      "2025暑期实习"
+    ],
     "pending": false
   },
   {
@@ -97,6 +100,13 @@
   {
     "n": "信达生物",
     "sourceUrl": "https://campus.51job.com/Innovent2026/",
+    "status": "待核验",
+    "roles": [],
+    "pending": false
+  },
+  {
+    "n": "诺和诺德",
+    "sourceUrl": "https://www.novonordisk.com.cn/",
     "status": "待核验",
     "roles": [],
     "pending": false
