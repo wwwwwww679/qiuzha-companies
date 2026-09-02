@@ -4,7 +4,25 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
     "roles": [
-      "医学信息沟通代表"
+      "特药事业部 医学信息沟通代表"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "待核验",
+    "roles": [
+      "糖尿病事业部 医学信息沟通代表"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "待核验",
+    "roles": [
+      "HSE Intern"
     ],
     "pending": false
   },
@@ -22,7 +40,7 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
     "roles": [
-      "Market Access Manager"
+      "疫苗事业部 医学信息沟通代表"
     ],
     "pending": false
   },
@@ -31,25 +49,7 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
     "roles": [
-      "医学信息沟通代表"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [
-      "China Search & Evaluation Director"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [
-      "Vx-Sr Brand Manager-Beijing"
+      "疫苗事业部 医学信息沟通代表"
     ],
     "pending": false
   },
@@ -58,8 +58,9 @@
     "sourceUrl": "https://careersite.tupu360.com/iqvia",
     "status": "待核验",
     "roles": [
-      "2025春季校园招聘",
-      "2025暑期实习"
+      "管理咨询暑期实习生",
+      "市场洞察暑期实习生",
+      "真实世界研究暑期实习生"
     ],
     "pending": false
   },
