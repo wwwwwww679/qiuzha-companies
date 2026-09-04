@@ -4,7 +4,7 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
     "roles": [
-      "KA Senior Manager"
+      "医学信息沟通代表"
     ],
     "pending": false
   },
@@ -13,7 +13,7 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
     "roles": [
-      "Sales Representative – General Medicines GP (South)"
+      "Regional Manager"
     ],
     "pending": false
   },
@@ -22,7 +22,7 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
     "roles": [
-      "Commercial Intern"
+      "医学信息沟通代表"
     ],
     "pending": false
   },
@@ -31,7 +31,7 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
     "roles": [
-      "Commercial Intern"
+      "医学信息沟通代表"
     ],
     "pending": false
   },
@@ -40,34 +40,7 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
     "roles": [
-      "Commercial Intern"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [
-      "Commercial Intern"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [
-      "Commercial Intern"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [
-      "Commercial Intern"
+      "Maintenance Intern"
     ],
     "pending": false
   },
@@ -84,16 +57,18 @@
     "n": "IQVIA艾昆纬",
     "sourceUrl": "https://careersite.tupu360.com/iqvia",
     "status": "待核验",
-    "roles": [
-      "2025暑期实习项目"
-    ],
+    "roles": [],
     "pending": false
   },
   {
     "n": "辉瑞",
     "sourceUrl": "https://pfizer.com.cn/zh-hans/careers-cn",
     "status": "待核验",
-    "roles": [],
+    "roles": [
+      "研发暑期实习生",
+      "医学信息暑期实习生",
+      "市场暑期实习生"
+    ],
     "pending": false
   },
   {
