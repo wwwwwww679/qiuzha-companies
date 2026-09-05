@@ -4,6 +4,24 @@
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
     "roles": [
+      "Commercial Intern"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "待核验",
+    "roles": [
+      "Manager Patient Affair and Diagnostics"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "待核验",
+    "roles": [
       "医学信息沟通代表"
     ],
     "pending": false
@@ -36,28 +54,15 @@
     "pending": false
   },
   {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [
-      "Maintenance Intern"
-    ],
-    "pending": false
-  },
-  {
-    "n": "赛诺菲",
-    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
-    "status": "待核验",
-    "roles": [
-      "医学信息沟通代表"
-    ],
-    "pending": false
-  },
-  {
     "n": "IQVIA艾昆纬",
     "sourceUrl": "https://careersite.tupu360.com/iqvia",
     "status": "待核验",
-    "roles": [],
+    "roles": [
+      "管理咨询暑期实习生",
+      "市场洞察暑期实习生",
+      "真实世界研究暑期实习生",
+      "卫生经济与结果研究暑期实习生"
+    ],
     "pending": false
   },
   {
@@ -65,9 +70,9 @@
     "sourceUrl": "https://pfizer.com.cn/zh-hans/careers-cn",
     "status": "待核验",
     "roles": [
-      "研发暑期实习生",
-      "医学信息暑期实习生",
-      "市场暑期实习生"
+      "医学信息沟通实习生",
+      "市场部实习生",
+      "研发部实习生"
     ],
     "pending": false
   },
