@@ -3,23 +3,72 @@
     "n": "赛诺菲",
     "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
     "status": "待核验",
-    "roles": [],
+    "roles": [
+      "MS Solid Production Specialist"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "待核验",
+    "roles": [
+      "医学信息沟通代表"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "待核验",
+    "roles": [
+      "医学信息沟通代表"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "待核验",
+    "roles": [
+      "(Senior) Product Manager - Specialty Cardiovascular Innovation, General Medicines"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "待核验",
+    "roles": [
+      "医学信息沟通代表"
+    ],
+    "pending": false
+  },
+  {
+    "n": "赛诺菲",
+    "sourceUrl": "https://jobs.sanofi.cn/zh-hans/china",
+    "status": "待核验",
+    "roles": [
+      "Associate Health Value Translation Lead"
+    ],
     "pending": false
   },
   {
     "n": "IQVIA艾昆纬",
     "sourceUrl": "https://careersite.tupu360.com/iqvia",
     "status": "待核验",
-    "roles": [
-      "2025暑期实习项目"
-    ],
+    "roles": [],
     "pending": false
   },
   {
     "n": "辉瑞",
     "sourceUrl": "https://pfizer.com.cn/zh-hans/careers-cn",
     "status": "待核验",
-    "roles": [],
+    "roles": [
+      "医学信息沟通实习生",
+      "市场部实习生",
+      "研发实习生"
+    ],
     "pending": false
   },
   {
@@ -95,13 +144,7 @@
     "n": "强生",
     "sourceUrl": "https://www.jnj.com/",
     "status": "待核验",
-    "roles": [
-      "Apprenticeships",
-      "Internships",
-      "Co-ops",
-      "Leadership development programs",
-      "Jobs for graduate students, postgraduates and postdocs"
-    ],
+    "roles": [],
     "pending": false
   }
 ]
